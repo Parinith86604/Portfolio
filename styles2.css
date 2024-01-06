@@ -1,0 +1,67 @@
+/* General styles */
+body {
+    background-image: url('pexels-pixabay-531880.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  
+header {
+    background-color:yellow;
+    color: black;
+    padding: 1rem;
+    text-align: center;
+ 
+}
+.img-logo{
+    height: 40px;
+    padding-left: 0px;
+    top: 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    text-align: center;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px; /* Optional: Add some margin for spacing */
+}
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        margin-top: 1rem;
+        text-align: center;
+
+    }
+}
